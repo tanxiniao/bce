@@ -25,13 +25,13 @@ utctime1 = "%04d-%02d-%02dT%02d:%02d:%02dZ" % (
 credentials = testbossign.BceCredentials("fm9Cf5SM5UIeX2egIeGMWwGx", "Q8fGdGR64tXD0Y094jBAHTF63tlvHHgI")
 headers = {
             "host": "xdtest.bj.bcebos.com",
-            # "Origin": "*",
-            # "Access-Control-Request-Method": "GET",
-            # "Access-Control-Allow-Headers": "*"
+            "Origin": "*",
+            "Access-Control-Request-Method": "GET",
+            "Access-Control-Allow-Headers": "*"
 
-            #"content-length":98,
-            "content-type":"application/json",
-            "x-bce-date": utctime1
+            # "content-length":40,
+            # "content-type":"application/json",
+            # "x-bce-date": utctime1
 
 
 }
@@ -41,19 +41,19 @@ params = {
          }
 
 #data = '{"name":"tom","receiver":["0000"],"contentVar":"{\"code\":\"123456\"}"}'
-path = "/?cors"
-data = '{"corsConfiguration": [{"allowedOrigins": ["*"],"allowedMethods": ["GET","HEAD","DELETE"],"allowedHeaders": ["*"]}]}'
-method = 'PUT'
+data = ''
+path = "/a.txt"
+method = 'OPTIONS'
 result = testbossign.sign(credentials,method,path,headers, params, timestamp)
 httpClient = None
 host = 'xdtest.bj.bcebos.com'
-headers['Authorization'] = result
-print headers
+# headers['Authorization'] = result
+#print headers
 #print result
 port = 80
 try:
     httpClient = httplib.HTTPConnection(host,port)
-    httpClient.request(method=method,url=path,body=data,headers=headers)
+    httpClient.request(method=method,url=path,headers=headers)
     response = httpClient.getresponse()
     print response.status
     print response.reason
