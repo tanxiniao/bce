@@ -1,1 +1,0 @@
-'{"corsConfiguration": [{"allowedOrigins": "*","allowedMethods": ["GET","HEAD","DELETE"],"allowedHeaders": "*"}]}'
