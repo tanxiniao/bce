@@ -55,5 +55,5 @@ def test_delete(self):
 $ python tests.py
 许可
 
-The MIT License (MIT). 详情见 License文
+The MIT License (MIT). 详情见 License文件
 
