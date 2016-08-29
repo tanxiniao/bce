@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/inf/bce/!svn/ver/76995/trunk/sdk/python/baidubce/http
+END
+bce_http_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/bce/!svn/ver/76995/trunk/sdk/python/baidubce/http/bce_http_client.py
+END
+http_headers.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/bce/!svn/ver/15718/trunk/sdk/python/baidubce/http/http_headers.py
+END
+handler.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/bce/!svn/ver/18743/trunk/sdk/python/baidubce/http/handler.py
+END
+http_content_types.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/bce/!svn/ver/15718/trunk/sdk/python/baidubce/http/http_content_types.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/bce/!svn/ver/5447/trunk/sdk/python/baidubce/http/__init__.py
+END
+http_methods.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/bce/!svn/ver/15718/trunk/sdk/python/baidubce/http/http_methods.py
+END

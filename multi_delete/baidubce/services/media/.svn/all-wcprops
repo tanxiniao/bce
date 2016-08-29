@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/bce/!svn/ver/112241/trunk/sdk/python/baidubce/services/media
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/bce/!svn/ver/53650/trunk/sdk/python/baidubce/services/media/__init__.py
+END
+media_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/bce/!svn/ver/112241/trunk/sdk/python/baidubce/services/media/media_client.py
+END

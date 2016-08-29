@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/bce/!svn/ver/70484/trunk/sdk/python/baidubce/services/bos
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/bce/!svn/ver/60119/trunk/sdk/python/baidubce/services/bos/__init__.py
+END
+bos_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/bce/!svn/ver/70484/trunk/sdk/python/baidubce/services/bos/bos_client.py
+END
+canned_acl.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/bce/!svn/ver/15718/trunk/sdk/python/baidubce/services/bos/canned_acl.py
+END

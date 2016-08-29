@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/inf/bce/!svn/ver/21170/trunk/sdk/python/baidubce/auth
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/bce/!svn/ver/3500/trunk/sdk/python/baidubce/auth/__init__.py
+END
+bce_credentials.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/bce/!svn/ver/15718/trunk/sdk/python/baidubce/auth/bce_credentials.py
+END
+bce_v1_signer.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/bce/!svn/ver/21170/trunk/sdk/python/baidubce/auth/bce_v1_signer.py
+END
